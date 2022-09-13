@@ -55,10 +55,74 @@ h1 {
     padding: 6px;
     width: 90px;
     height: 30px;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
 }
 
 #bluebutton {
     background-color: #45ABEA;
     color: white;
+}
+#container2{
+    margin-top: 7px;
+}
+
+/* Check e Cross */
+.circle {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle-check {
+    color: green;
+    border-color: green;
+}
+
+.circle-cross {
+    color: red;
+    border-color: red;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+/* Bottoni argomenti */
+
+.button-argomenti {
+    box-sizing: content-box;
+    background-color: #45ABEA;
+    color: #f6f8f9;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 6px;
+    width: 60px;
+    height: 15px;  
+}
+
+#violet{
+    background-color: #9C72E4;
+}
+
+#green{
+    background-color: #64C0A9;   
+}
+
+#orange{
+    background-color: #F29E33;   
+}
+
+#pink{
+    background-color: #D863A1;   
+}
+
+#lightgreen{
+    background-color: #B0C926;
 }
